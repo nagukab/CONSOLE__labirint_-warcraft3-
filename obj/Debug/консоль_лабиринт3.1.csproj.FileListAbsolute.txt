@@ -1,0 +1,20 @@
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\bin\Debug\консоль_лабиринт.exe.config
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\bin\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\bin\Debug\консоль_лабиринт.pdb
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт3.1.csproj.AssemblyReference.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт3.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт.Properties.Resources.resources
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт3.1.csproj.GenerateResource.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт3.1.csproj.CoreCompileInputs.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1\obj\Debug\консоль_лабиринт.pdb
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.exe.config
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.pdb
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт3.1.csproj.AssemblyReference.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт3.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.Properties.Resources.resources
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт3.1.csproj.GenerateResource.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт3.1.csproj.CoreCompileInputs.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.pdb

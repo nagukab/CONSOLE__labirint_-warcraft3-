@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONSOLE_labirint_(warcraft3)", "CONSOLE_labirint_(warcraft3).csproj", "{D125AE08-693D-49B3-BE84-016F6FCF6BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D125AE08-693D-49B3-BE84-016F6FCF6BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D125AE08-693D-49B3-BE84-016F6FCF6BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D125AE08-693D-49B3-BE84-016F6FCF6BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D125AE08-693D-49B3-BE84-016F6FCF6BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07AE8B1A-B6AA-4714-9925-360B49310C2B}
+	EndGlobalSection
+EndGlobal

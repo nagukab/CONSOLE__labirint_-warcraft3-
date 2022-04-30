@@ -1,0 +1,9 @@
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.exe.config
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\bin\Debug\консоль_лабиринт.pdb
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\CONSOLE_labirint_(warcraft3).csproj.SuggestedBindingRedirects.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.Properties.Resources.resources
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\CONSOLE_labirint_(warcraft3).csproj.GenerateResource.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\CONSOLE_labirint_(warcraft3).csproj.CoreCompileInputs.cache
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.exe
+C:\Users\A-Spect\source\repos\консоль_лабиринт3.1 norm\obj\Debug\консоль_лабиринт.pdb
