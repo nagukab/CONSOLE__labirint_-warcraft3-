@@ -5,7 +5,12 @@
       "ProjectGuid": "d125ae08-693d-49b3-be84-016f6fcf6bac",
       "DisplayName": "CONSOLE_labirint_(warcraft3)",
       "ColorIndex": 0
+    },
+    "ecf3480a-ace7-4b4e-af7f-ad9cc8eeffd8": {
+      "ProjectGuid": "ecf3480a-ace7-4b4e-af7f-ad9cc8eeffd8",
+      "DisplayName": "консоль_дз_02 (нормЯ)",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

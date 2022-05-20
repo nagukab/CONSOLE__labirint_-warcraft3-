@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Media;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -24,7 +24,7 @@ namespace консоль_лабиринт
         static void Main(string[] args)
         {
 
-            double времяТаймера = 2000, множительТаймера =0.1;
+            double времяТаймера = 2000, множительТаймера = 0.1;
             таймер.Interval = времяТаймера;
             таймер.Elapsed += Таймер_Elapsed;
             ConsoleColor стартовыйЦветТекстаКонсоли2 = Console.ForegroundColor;  // запоминает в стартовыйЦветКонсоли цвет текста консоли 
@@ -33,13 +33,13 @@ namespace консоль_лабиринт
 
             Console.CursorVisible = false;
             Random рандом = new Random();
-            int Arthas_X = 0, Arthas_Y = 0,  Arthas_X_движение_X = 0, Arthas_X_движение_Y = 0, жжизней = 10, жжизнейМакс = 10, счетчиК = 0, случайноеЧисло_Х, случайноеЧисло_У,
+            int Arthas_X = 0, Arthas_Y = 0, Arthas_X_движение_X = 0, Arthas_X_движение_Y = 0, жжизней = 10, жжизнейМакс = 10, счетчиК = 0, случайноеЧисло_Х, случайноеЧисло_У,
                 Uther_x = 0, Uther_y = 0;
             bool игрокЕщёЖИв = true, поехали = false, утерЖив = true, проигратьЗвукПобеды = true;
             char подобранныйЧар = ' ', чарДляПоиска = '+', временноКудаНаступилУтер = ' ';
             string словоДляПоиска = "frostmourne";
 
-            //string[] картаСтроками = Properties.Resources.mapTEST.Split('\n');
+
 
             string[] картаСтроками = File.ReadAllLines("map1"); // считываю карту с файла построчно и запихиваю в массив строк            
 
@@ -71,6 +71,7 @@ namespace консоль_лабиринт
             Console.WriteLine("управление стрелками, # это стена, надо искать букву и не тыкаться в стены, утера можно победить накопив 26хп");
             while (игрокЕщёЖИв) //////////////////////////////////////////////////////////////////////////         ЦИКЛ
             {
+
 
                 if (жжизней >= 100 && проигратьЗвукПобеды && !утерЖив)
                 {
@@ -108,6 +109,7 @@ namespace консоль_лабиринт
                     Console.WriteLine("ПОЗНАЙ ГНЕВ СВЕТА");
                     Console.ReadKey();
                 }
+
                 if (поехали && утерЖив && сделатьХодПотаймеру)
                 {
                     bool покаНеУперся = true;
@@ -144,7 +146,7 @@ namespace консоль_лабиринт
                             Console.Write('U');
                             Console.BackgroundColor = стартовыйЦветФонаКонсоли2; Console.ForegroundColor = стартовыйЦветТекстаКонсоли2;
 
-                            покаНеУперся = false; сделатьХодПотаймеру = false;                            
+                            покаНеУперся = false; сделатьХодПотаймеру = false;
                         }
                     }
                 }
@@ -246,6 +248,21 @@ namespace консоль_лабиринт
                         }
                     }
                     картаСимволами[Arthas_X, Arthas_Y] = '@';    // записывает себя в массив
+
+                    if (!утерЖив && !проигратьЗвукПобеды)
+                    {
+                       
+                            таймер.Stop(); таймер.Dispose(); Console.Clear();
+                            Матрица матрица;
+                            for (int i = 1; i < Console.WindowWidth / 2; i++)
+                            {
+                                Thread.Sleep(100);
+                                матрица = new Матрица(i * 2);
+                                new Thread(матрица.Цепочка).Start(true);
+                            }
+                            while (true) { Console.ReadKey(); }
+                        
+                    }
                 }
             }
             while (true)
