@@ -33,7 +33,7 @@ namespace консоль_лабиринт
 
             Console.CursorVisible = false;
             Random рандом = new Random();
-            int Arthas_X = 0, Arthas_Y = 0, Arthas_X_движение_X = 0, Arthas_X_движение_Y = 0, жжизней = 1000, жжизнейМакс = 10, счетчиК = 0, случайноеЧисло_Х, случайноеЧисло_У,
+            int Arthas_X = 0, Arthas_Y = 0, Arthas_X_движение_X = 0, Arthas_X_движение_Y = 0, жжизней = 10, жжизнейМакс = 10, счетчиК = 0, случайноеЧисло_Х, случайноеЧисло_У,
                 Uther_x = 0, Uther_y = 0;
             bool игрокЕщёЖИв = true, поехали = false, утерЖив = true, проигратьЗвукПобеды = true;
             char подобранныйЧар = ' ', чарДляПоиска = '+', временноКудаНаступилУтер = ' ';
@@ -251,17 +251,17 @@ namespace консоль_лабиринт
 
                     if (!утерЖив && !проигратьЗвукПобеды)
                     {
-                       
-                            таймер.Stop(); таймер.Dispose(); Console.Clear();
-                            Матрица матрица;
-                            for (int i = 1; i < Console.WindowWidth / 2; i++)
-                            {
-                                Thread.Sleep(20);
-                                матрица = new Матрица(i * 2);
-                                new Thread(матрица.Цепочка).Start(true);
-                            }
-                            while (true) { Console.ReadKey(); }
-                        
+
+                        таймер.Stop(); таймер.Dispose(); Console.Clear();
+                        Матрица матрица;
+                        for (int i = 1; i < Console.WindowWidth / 2; i++)
+                        {
+                            Thread.Sleep(20);
+                            матрица = new Матрица(i * 2);
+                            new Thread(матрица.Цепочка).Start(true);
+                        }
+                        while (true) { Console.ReadKey(); }
+
                     }
                 }
             }
